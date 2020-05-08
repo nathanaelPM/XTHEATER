@@ -20,6 +20,7 @@ if(isset($_SESSION['login_user_sys'])){
 <html>
 <head>
 <title>XTHEATER</title>
+<meta http-equiv="content-Type" content="tex/html; charset=iso-8859">
 <link rel="styleshett" type="text/css" href="estilo.css" />
 
 </head>
@@ -27,7 +28,7 @@ if(isset($_SESSION['login_user_sys'])){
 <!--header start here-->
 <div id="header">
 </div>
-<h1>Formulario </h1>
+<h1>Formulario de inicio de sesión</h1>
 <div class="header agile">
 	<div class="wrap">
 		<div class="login-main wthree">
