@@ -20,6 +20,8 @@ if(isset($_SESSION['login_user_sys'])){
 <html>
 <head>
 <title>XTHEATER</title>
+<link rel="styleshett" type="text/css" href="estilo.css" />
+
 </head>
 <body>
 <!--header start here-->
