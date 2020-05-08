@@ -24,7 +24,7 @@ if($tipo==2){header("location: profile2.php");}
 	<table width="400" border="1">
   <thead>
     <tr>
-		<th><a href="Anadir.php">Añadir Funcion</a></th>
+		<th><a href="Anadir.php">Añadir Funcion opcional</a></th>
       	<th><a href="AnadirObra.php">Añadir Obra</a></th>
     </tr>
   </thead>
