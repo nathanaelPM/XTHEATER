@@ -6,7 +6,7 @@ if($tipo==2){header("location: profile2.php");}
 <html>
 <head>
 <meta charset="utf-8">
-<title>Añadir</title>
+<title>Añadir1</title>
 </head>
 
 <body>
