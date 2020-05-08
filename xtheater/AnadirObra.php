@@ -13,7 +13,7 @@ if($tipo==2){header("location: profile2.php");}
 	<table width="400" border="1">
   <thead>
     <tr>
-		<th><a href="Anadir.php">Añadir cualquier cosa</a></th>
+		<th><a href="Anadir.php">Añadir cualquier co1sa</a></th>
       	<th><a href="VerObras.php">Ver obra</a></th>
       	<th><a href="Cancelar.php">Cancelar</a></th>
 		<th><a href="VerBoletos.php">Ver Boletos</a></th>
