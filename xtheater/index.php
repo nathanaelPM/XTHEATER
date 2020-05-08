@@ -25,6 +25,8 @@ if(isset($_SESSION['login_user_sys'])){
 </head>
 <body>
 <!--header start here-->
+<div id="header">
+	
 <h1>Formulario de inicio de sesión</h1>
 <div class="header agile">
 	<div class="wrap">
