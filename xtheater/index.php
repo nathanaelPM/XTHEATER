@@ -21,7 +21,7 @@ if(isset($_SESSION['login_user_sys'])){
 <head>
 <title>XTHEATER</title>
 <meta http-equiv="content-Type" content="tex/html; charset=iso-8859">
-<link rel="styleshett" type="text/css" href="estilo.css" />
+<link rel="stylesheet"  href="estilo.css" />
 
 </head>
 <body>
