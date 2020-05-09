@@ -12,18 +12,3 @@ div#header{
 }
 
 /* logo xtheater*/
-img {
-    border: 3px;
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: cornflowerblue;
-    padding: 20 px;
-}
-.center img {
-    width: 60vw;
-    height: 100vh;
-}
