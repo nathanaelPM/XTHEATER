@@ -5,9 +5,18 @@ if($tipo==2){header("location: profile2.php");}
 <html>
 <head>
 <title>Ver Obras</title>
+
+<link rel="stylesheet" href="Estilo/estilo.css" />
 </head>
+
 <body>
-	<table width="400" border="1">
+      <div id="header">
+        <div class="logo">
+            <img src="Estilo/logo/logoX.jpg" width="300" alt="">
+    </div>
+
+  <div align='center'>  
+	<table width="900" border="1"> </br>
   <thead>
     <tr>
       	<th><a href="VerObras.php">Ver obra</a></th>
@@ -17,15 +26,16 @@ if($tipo==2){header("location: profile2.php");}
 		<th><a href="RegistrarEmpleado.php">Registrar Empleado</a></th>
     </tr>
   </thead>
+</div>
 </table>
 	<table border="1">
   <thead>
     <tr>
-      	<th><a href="VerFunciones.php">Ver Funciones</a></th>
-    </tr>
+      	<th><a href="VerFunciones.php">Ver Funciones</a></th> 
   </thead>
 </table>
-	<form action="VerObras1.1.php" method="post">
+	<form action="VerObras1.1.php" method="post"> </br>
+    </tr>
 		<input type="text" name="nombre">
 		<input type="submit">
 	</form>
@@ -43,7 +53,7 @@ if($tipo==2){header("location: profile2.php");}
 					 echo "<h2>No se encontraron resultados</h2>"; 
 					 echo "</div>"; 
 			   		}else{?>
-				   <table border=1>
+				   <table border=1> </br>
 			<thead><tr>
 			<th width="600"><strong> Obra </strong></th>
 			<th><strong> Clasificacion </strong></th>
