@@ -19,7 +19,7 @@ if($tipo==2){header("location: profile2.php");}
 
 </div>
 <div align='center'>
- <table width="800" border="1"></br>
+ <table width="900" border="1"></br>
  
   <thead>
     <tr>
