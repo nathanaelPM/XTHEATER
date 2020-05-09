@@ -29,7 +29,7 @@ if(isset($_SESSION['login_user_sys'])){
 <div id="header">
 </div>
 
-<h1>Formulario de inicio de sesión</h1>
+<img src="logo/logoX.jpg" alt="">
 <div class="header agile">
 	<div class="wrap">
 		<div class="login-main wthree">
