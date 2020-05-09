@@ -39,11 +39,14 @@ if(isset($_SESSION['login_user_sys'])){
 	<div class="wrap">
 		<div class="login-main wthree">
 			<div class="login">
-			<h3>Iniciar sesión</h3>
-			<form action="#" method="post">
-				<input type="text" placeholder="Correo electrónico" required="" name="username" required>
-				<input type="password" placeholder="Contraseña" name="password" required>
-				<input name="submit" type="submit" value="Ingresar">
+			<div align='center'>
+			<h3>INICIA SESIÓN</h3>
+			 <form action="#" method="post">
+				
+			<br>  <input type="text" placeholder="Usuario" required="" name="username" required> <br>
+			<br><input type="password" placeholder="Contraseña" name="password" required> <br>
+			<br><input name="submit" type="submit" value="Iniciar Sesión"> <br>
+</div>
 			</form>
 			<div class="clear"> </div>
 				<span><?php echo $error; ?></span>
