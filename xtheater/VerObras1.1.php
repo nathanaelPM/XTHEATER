@@ -5,9 +5,18 @@ if($tipo==2){header("location: profile2.php");}
 <html>
 <head>
 <title>Buscar Obra</title>
+
+<link rel="stylesheet" href="Estilo/estilo.css" />
+
 </head>
 <body>
-	<table width="400" border="1">
+
+<div id="header">
+        <div class="logo">
+            <img src="Estilo/logo/logoX.jpg" width="300" alt="">
+    </div>
+	<div align='center'>  
+	<table width="900" border="1"> </br>
   <thead>
     <tr>
       	<th><a href="VerObras.php">Ver obra</a></th>
@@ -25,10 +34,10 @@ if($tipo==2){header("location: profile2.php");}
     </tr>
   </thead>
 </table>
-	<form action="VerObras1.1.php" method="post">
-		<input type="text" name="nombre">
-		<input type="submit">
-	</form>
+	<form action="VerObras1.1.php" method="post"> </br>
+	<input type="text" placeholder="Nombre de la obra" name="nombre">
+		<input name="submit"  type="submit" value="Buscar"> 
+	</form></br>
 <?php
 	$nombre=$_POST['nombre'];
 	//include("config/db.php");//Contienen las variables, el servidor, usuario, contraseña y nombre  de la base de datos
