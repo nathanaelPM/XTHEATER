@@ -25,13 +25,15 @@ if(isset($_SESSION['login_user_sys'])){
 
 </head>
 <body>
+
 <!--header start here-->
 <div id="header">
-</div>
-
 <div class="logo">
 <img src="Estilo/logo/logoX.jpg" width="300" alt="">
 </div>
+
+</div>
+
 
 <div class="header agile">
 	<div class="wrap">
