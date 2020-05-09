@@ -17,7 +17,7 @@ img {
 }
 
 .center {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     align-items: center;
     background: cornflowerblue;
