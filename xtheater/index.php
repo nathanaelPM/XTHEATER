@@ -29,7 +29,10 @@ if(isset($_SESSION['login_user_sys'])){
 <div id="header">
 </div>
 
-<img src="logo/logoX.jpg" alt="">
+<div class="logo">
+<img src="Estilo/logo/logoX.jpg" alt="">
+</div>
+
 <div class="header agile">
 	<div class="wrap">
 		<div class="login-main wthree">

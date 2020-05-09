@@ -10,3 +10,8 @@ div#header{
     background-color: black;
 
 }
+
+/* logo xtheater*/
+img {
+    border: 3px dashed tomato;
+}
