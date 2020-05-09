@@ -11,9 +11,9 @@ div#header{
 
 }
 
-/* logo xtheater*/
+/* logo xtheater */
 img{
-    height: 150px;
+    height: 150px; /*altura de la imagen */
     width: 350px;;
     position: relative;
     left: 0px;
