@@ -30,7 +30,7 @@ if(isset($_SESSION['login_user_sys'])){
 </div>
 
 <div class="logo">
-<img src="Estilo/logo/logoX.jpg" alt="center">
+<img src="Estilo/logo/logoX.jpg" width="300" alt="">
 </div>
 
 <div class="header agile">
