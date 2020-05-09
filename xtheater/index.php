@@ -35,10 +35,11 @@ if(isset($_SESSION['login_user_sys'])){
 </div>
 
 
-<div class="header agile">
+<div class="header agile"> 
 	<div class="wrap">
 		<div class="login-main wthree">
 			<div class="login">
+				
 			<div align='center'>
 			<h3>INICIA SESIÓN</h3>
 			 <form action="#" method="post">
